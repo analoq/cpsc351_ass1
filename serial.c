@@ -1,3 +1,8 @@
+/*
+ * CPSC 351 - Assignment 1
+ * Aaron Matthews
+ * apmatthews@csu.fullerton.edu
+ */
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
