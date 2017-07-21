@@ -1,7 +1,7 @@
-all: dl_parallel dl_serial
+all: parallel serial
 
-dl_parallel: dl.c
-	gcc -o dl_parallel -DPARALLEL dl.c
+parallel: parallel.c
+	gcc -o parallel parallel.c
 
-dl_serial: dl.c
-	gcc -o dl_serial dl.c
+serial: serial.c
+	gcc -o serial serial.c
