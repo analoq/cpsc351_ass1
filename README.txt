@@ -17,6 +17,10 @@ Instructions
 ------------
 Programs can be built with the Makefile using make
 
+For the shell:
+  Run ./createBash for the shell
+  type "exit" to quit
+
 For the Downloader:
   Ensure urls.txt in working directory
   Run ./serial for serial downloader
