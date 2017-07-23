@@ -17,6 +17,10 @@ Instructions
 ------------
 Programs can be built with the Makefile using make
 
+For the shell:
+  Run ./createBash for the shell
+  type "exit" to quit
+
 For the Downloader:
   As the name implies, createBash create the bash shell , where the parent wiats for the command, and child executes it. 
   Ensure urls.txt in working directory
