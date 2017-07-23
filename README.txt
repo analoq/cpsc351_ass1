@@ -1,33 +1,60 @@
 CPSC 351 - Assignment 1
-================================================================================
+=======================
 
-Group:
-  Aaron Matthews, apmatthews@csu.fullerton.edu
-  Anas Elhadidy, xxx@csu.fullerton.edu
-
-Programming Language:
-  C
-
-Instructions for Shell:
+Group
+-----
+Aaron Matthews, apmatthews@csu.fullerton.edu
+Anas Elhadidy, xxx@csu.fullerton.edu
 
 
-Instructions for Downloader:
+Programming Language
+--------------------
+C++ for shell
+C for downloader
+
+
+Instructions
+------------
+Programs can be built with the Makefile using make
+
+For the Downloader:
   Ensure urls.txt in working directory
   Run ./serial for serial downloader
   Run ./parallel for parallel downloader
 
-Execution Times:
 
-Questions:
-  1.
-  2.
-  3.
-  4.
+Execution Times
+---------------
+Serial downloader: 1.7 seconds
+Parallel downloader: 1.0 seconds
 
-Volunteering:
-  Yes?
 
-Special Notes:
+Questions
+---------
+> In the output of time, what is the difference between real, user, and sys time?
 
-Hard Times:
+Real time is the actual execution time.  User time is the amount of the CPU's time used in user space, whereas Sys time is the amount of the CPU's time used in kernel space e.g. by system calls.
 
+> Which is longer: user time or systime?  Use your knowledge to explain why.
+
+User time is longer.  This must mean more CPU was used in user space rather than in kernel space with system calls.
+
+> When downloading the files above, which downloader finished faster? Why? Explain.
+
+The parallel downloader finished faster.  Instead of waiting for the first file to finish before starting the second, both downloads were started at the same time.  
+
+> Repeat the experiment for 10 files.  Is the downloader in the previous question still faster?  If not so, why?  Please explain.
+
+With 10 files, serial took 15.2 seconds and parallel took 3.2 seconds.  So, yes, the parallel downloader was even faster in this case.
+
+Volunteering
+------------
+Yes?
+
+Special Notes
+-------------
+None.
+
+Hard Times
+----------
+Disk quotas prevented us from using the provided urls.txt
