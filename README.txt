@@ -4,7 +4,7 @@ CPSC 351 - Assignment 1
 Group
 -----
 Aaron Matthews, apmatthews@csu.fullerton.edu
-Anas Elhadidy, xxx@csu.fullerton.edu
+Anas Elhadidy, aelhadidy@csu.fullerton.edu
 
 
 Programming Language
