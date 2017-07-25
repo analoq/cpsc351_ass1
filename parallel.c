@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
     }
     if ( !pid )
     {
-      if ( execlp("/usr/bin/wget", "wget", line, NULL) < 0 )
+      if ( execlp("/usr/local/bin/wget", "wget", line, NULL) < 0 )
       {
         fprintf(stderr, "Unable to exec!\n");
         return -1;
