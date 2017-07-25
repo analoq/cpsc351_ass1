@@ -30,8 +30,8 @@ For the Downloader:
 
 Execution Times
 ---------------
-Serial downloader: 1.7 seconds
-Parallel downloader: 1.0 seconds
+Serial downloader: 4.8 seconds
+Parallel downloader: 2.1 seconds
 
 
 Questions
