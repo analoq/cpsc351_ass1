@@ -54,7 +54,7 @@ With 10 files, serial took 15.2 seconds and parallel took 3.2 seconds.  So, yes,
 
 Volunteering
 ------------
-Yes?
+Yes.
 
 Special Notes
 -------------
@@ -62,5 +62,4 @@ None.
 
 Hard Times
 ----------
-Disk quotas prevented us from using the provided urls.txt
- 
+Switching to FreeBSD, the path to wget was needed to be changed.
